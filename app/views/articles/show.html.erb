@@ -1,0 +1,8 @@
+<h2><%= @article.title %></h2>
+
+<p><%= @article.content %></p>
+
+
+<%= link_to 'Back to homepage', articles_path, class: 'btn btn-primary' %>
+
+<%= link_to 'Edit this article', edit_article_path(@article), class: 'btn btn-primary' %>
